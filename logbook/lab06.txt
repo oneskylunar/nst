@@ -1,0 +1,21 @@
+LAB 6 LOGBOOK - Shashi Kant Yadav - 2601010329
+SETUP: my working directory is /Users/oneskylunar/nst/labs/lab06-os-and-filesystem
+T1 prediction: I think ls / will show about 17 items
+T1: /bin holds binary files of the program
+T1: /dev holds files for peripheral devices
+T1: / means root directory, ~ means home directory, . means current directory
+T1: the OS groups files by Users
+T2 prediction: ./deploy will print "Deployment started" because it is running echo in shell
+T2 prediction: appending after u-w will remove write permission from the user becouse '-' removes the permission
+T2: -rw-r--r-- written in numbers is 644
+T2: ./deploy failed at first because user didn't had the permission to write
+T2: the new policy needed chmod 750
+T3 prediction: ./nst-info will not run because it does not have execute permission
+T3 prediction: adding .py to the name will make it python file
+T3: python3 nst-info worked but ./nst-info failed because it required execute permission which it didn't had
+T3: renaming the file to .py chnaged the name of file and filetype to python file
+T3: file extension are actually used by the code editor
+T4 prediction: a file called ls in ~/nst/bin will have a PATH in PATH variable
+T4: nst-info failed from /tmp because it was not in that folder
+T4: the full path worked because it has was looking for the file from absolute location
+T4: PATH is searched from 
